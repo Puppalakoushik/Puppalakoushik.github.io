@@ -1,26 +1,23 @@
-h1
-{
+h1 {
     position: relative;
     color: black;
     font-size: 60px;
     font-style: italic;
     text-align: center;
 }
-h2
-{
+h2 {
     color: aqua;
     font-size: 40px;
     font-style: oblique;
     text-align: center;
 }
-body
-{
-    background-image: url('https://raw.githubusercontent.com/Puppalakoushik/Puppalakoushik.github.io/Master/5ed52e2f7732d.jpg');
+body {
+    background-image: url('Images/Nature.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
-p{
+p {
     font-size: 25px;
     color: blueviolet;
     font-style: inherit;
