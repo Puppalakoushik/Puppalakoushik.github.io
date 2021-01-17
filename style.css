@@ -6,20 +6,20 @@ h1 {
     text-align: center;
 }
 h2 {
-    color: aqua;
+    color: darkblue;
     font-size: 40px;
     font-style: oblique;
     text-align: center;
 }
 body {
-    background-image: url('Images/Nature.png');
+    background-image: url('Images/ice.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
 p {
     font-size: 25px;
-    color: blueviolet;
+    color: red;
     font-style: inherit;
     text-align: center;
 }
