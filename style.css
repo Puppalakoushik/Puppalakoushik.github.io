@@ -132,7 +132,7 @@
             height: 100vh;
             text-align: left;
             width: 100%;
-            display: flow-root;
+            display: inline-flex;
             justify-content: center;
             flex-direction: column;
         }
@@ -141,10 +141,6 @@
             font-size: 60px;
             font-weight: 700;
             margin-bottom: 10px;
-            position: relative;
-            text-overflow: clip;
-            text-shadow: black;
-            text-decoration: wavy;
             font-style: italic;
             text-transform: uppercase;
             color: black;
@@ -153,7 +149,7 @@
         
         .hero-content p {
             font-size: 20px;
-            letter-spacing: 5px;
+            letter-spacing: 3px;
             margin-top: 0;
             margin-bottom: 30px;
             text-transform: capitalize;
@@ -171,19 +167,45 @@
             color: #fff;
             font-size: 15px;
         }
+        /*-----------------------------------------------------------------------------------*/
+        /*  Aout
+/*-----------------------------------------------------------------------------------*/
+        
+        #about {
+            width: 100%;
+            height: auto;
+            background: #f7f7f7;
+            padding-top: 190px;
+        }
+        
+        aside {
+            float: left;
+        }
+        
+        #about .about-descr .p-heading {
+            font-family: 'Playfair Display', serif;
+            font-size: 28px;
+            text-align: center;
+        }
+        
+        #about .about-descr .separator {
+            max-width: 80%;
+            margin-bottom: 0;
+            text-align: center;
+        }
         /*--------------------------------------------------------------
 # Navbar
 --------------------------------------------------------------*/
         
         nav {
             position: fixed;
-            z-index: 1000;
+            z-index: 10;
             width: 100%;
             display: none;
         }
         
         .nav-menu {
-            float: inherit;
+            float: right;
         }
         
         .logo {
@@ -739,34 +761,4 @@
             100% {
                 transform: rotate(360deg);
             }
-        }
-        
-        h1 {
-            position: relative;
-            color: black;
-            font-size: 60px;
-            font-style: italic;
-            text-align: center;
-            text-decoration: underline;
-        }
-        
-        h2 {
-            color: darkblue;
-            font-size: 40px;
-            font-style: oblique;
-            text-align: center;
-        }
-        
-        body {
-            background-image: url('Images/ice.png');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-        }
-        
-        p {
-            font-size: 25px;
-            color: #ffbb00;
-            font-style: inherit;
-            text-align: center;
         }
