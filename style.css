@@ -740,3 +740,33 @@
                 transform: rotate(360deg);
             }
         }
+        
+        h1 {
+            position: relative;
+            color: black;
+            font-size: 60px;
+            font-style: italic;
+            text-align: center;
+            text-decoration: underline;
+        }
+        
+        h2 {
+            color: darkblue;
+            font-size: 40px;
+            font-style: oblique;
+            text-align: center;
+        }
+        
+        body {
+            background-image: url('Images/ice.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        
+        p {
+            font-size: 25px;
+            color: #ffbb00;
+            font-style: inherit;
+            text-align: center;
+        }
