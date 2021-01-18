@@ -189,7 +189,7 @@
         }
         
         #about .about-descr .separator {
-            max-width: 80%;
+            max-width: 100%;
             margin-bottom: 0;
             text-align: center;
         }
