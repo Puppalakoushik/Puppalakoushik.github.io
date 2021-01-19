@@ -346,7 +346,7 @@ nav ul li a {
 }
 
 #about .div-img-bg {
-    border: 20px solid #b8a07e;
+    border: 20px solid whitesmoke;
     margin-top: -150px;
     margin-left: 40px;
     float: left;
@@ -846,6 +846,7 @@ blockquote {
 
 #footer .socials-media ul li a:hover {
     font-size: 115%;
+    color: blue;
     transition: all 0.5s ease-in-out 0s;
 }
 
