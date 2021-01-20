@@ -846,7 +846,7 @@
         }
         .nav-menu {
             margin-top: 40px;
-            display: contents;
+            display: flex;
             float: inline-start;
             width: 100%;
         }
@@ -895,7 +895,7 @@
         }
         /* Contact */
         .contact-contact {
-            margin-bottom: 0px;
+            margin-bottom: 30px;
         }
         /* Footer */
         #footer .socials-media ul li {
@@ -916,7 +916,7 @@
         }
         .nav-menu {
             margin-top: 40px;
-            display: contents;
+            display: flex;
             float: inline-start;
             width: 100%;
         }
@@ -965,7 +965,7 @@
         }
         /* Contact */
         .contact-contact {
-            margin-bottom: 0px;
+            margin-bottom: 30px;
         }
         /* Footer */
         #footer .socials-media ul li {
@@ -986,7 +986,7 @@
         }
         .nav-menu {
             margin-top: 40px;
-            display: contents;
+            display: flex;
             float: inline-start;
             width: 100%;
         }
@@ -1035,7 +1035,7 @@
         }
         /* Contact */
         .contact-contact {
-            margin-bottom: 0px;
+            margin-bottom: 30px;
         }
         /* Footer */
         #footer .socials-media ul li {
@@ -1056,7 +1056,7 @@
         }
         .nav-menu {
             margin-top: 40px;
-            display: contents;
+            display: flex;
             float: inline-start;
             width: 100%;
         }
@@ -1104,7 +1104,7 @@
         }
         /* Contact */
         .contact-contact {
-            margin-bottom: 0px;
+            margin-bottom: 30px;
         }
         /* Footer */
         #footer .socials-media ul li {
@@ -1125,7 +1125,7 @@
         }
         .nav-menu {
             margin-top: 40px;
-            display: contents;
+            display: flex;
             float: inline-start;
             width: 100%;
         }
@@ -1173,7 +1173,7 @@
         }
         /* Contact */
         .contact-contact {
-            margin-bottom: 0px;
+            margin-bottom: 30px;
         }
         /* Footer */
         #footer .socials-media ul li {
