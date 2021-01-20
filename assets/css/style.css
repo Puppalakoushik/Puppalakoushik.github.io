@@ -813,11 +813,17 @@
     }
     
     #footer p {
-        font-size: 12px;
-        letter-spacing: 0.1em;
-        font-weight: 500;
-        margin-top: 0;
+        display: inline-flex;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-align: center;
         text-transform: uppercase;
+    }
+    
+    #footer p:hover {
+        font-size: 125%;
+        color: rgb(65, 225, 73);
+        transition: all 0.5s ease-in-out 0s;
     }
     
     .credits {
