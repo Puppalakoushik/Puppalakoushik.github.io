@@ -228,11 +228,10 @@
     
     nav ul li {
         float: left;
-        margin-right: 15px;
+        margin-right: 80px;
         display: inline;
         font-family: 'Poppins', sans-serif;
         font-size: 14px;
-        margin-left: 60px;
         margin-top: -21px;
     }
     
@@ -241,6 +240,7 @@
         position: relative;
         display: contents;
         float: right;
+        width: 20px;
         font-size: 20px;
         color: black;
         font-family: 'Poppins', helvetica;
@@ -828,4 +828,363 @@
     
     .credits {
         font-size: 13px;
+    }
+    /** Width between 1200x to 0	
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+ */
+    /** Width between 992px to 1199px	
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+ */
+    /** Width between 768px to 991px	
+ *  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+ */
+    
+    @media (min-width: 768px) and (max-width: 991px) {
+        /* Navbar */
+        nav {
+            padding: 10px 15px;
+        }
+        .nav-menu {
+            margin-top: 40px;
+            display: contents;
+            float: inline-start;
+            width: 100%;
+        }
+        .nav-menu li {
+            float: inline-start;
+            width: 100%;
+            text-align: center;
+            border-top: 1px solid #f7f7f7;
+            line-height: 45px;
+            margin-left: 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .responsive {
+            float: right;
+            padding-top: 15px;
+            display: block;
+        }
+        /* About */
+        .head-info .header-content .cmaster h1 {
+            font-size: 32px;
+        }
+        #about .div-img-bg {
+            padding: 0;
+        }
+        #about .div-img-bg .about-img img {
+            margin-top: 0%;
+            margin-left: calc(0% - 0px);
+        }
+        #about .about-descr .p-heading {
+            font-size: 20px;
+        }
+        #about .about-descr .separator {
+            max-width: 100%;
+            margin-bottom: 0;
+        }
+        /* portfolio */
+        #portfolio .portfolio-list .nav li {
+            float: none;
+            margin: 20px;
+            display: inline-block;
+        }
+        /* journal */
+        #journal .journal-block .journal-info {
+            margin-bottom: 30px;
+        }
+        /* Contact */
+        .contact-contact {
+            margin-bottom: 0px;
+        }
+        /* Footer */
+        #footer .socials-media ul li {
+            margin-right: 0;
+            margin-left: 0;
+            float: none;
+            display: inline-flex;
+        }
+    }
+    /** Width between 767px to 0	
+*  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+*/
+    
+    @media (max-width: 767px) {
+        /* Navbar */
+        nav {
+            padding: 20px 15px;
+        }
+        .nav-menu {
+            margin-top: 40px;
+            display: contents;
+            float: inline-start;
+            width: 100%;
+        }
+        .nav-menu li {
+            float: inline-start;
+            width: 100%;
+            text-align: center;
+            border-top: 1px solid #f7f7f7;
+            line-height: 45px;
+            margin-left: 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .responsive {
+            float: right;
+            padding-top: 15px;
+            display: block;
+        }
+        /* About */
+        .head-info .header-content h1 {
+            font-size: 32px;
+        }
+        #about .div-img-bg {
+            padding: 0;
+        }
+        #about .div-img-bg .about-img img {
+            margin-top: 0%;
+            margin-left: calc(0% - 0px);
+        }
+        #about .about-descr .p-heading {
+            font-size: 20px;
+        }
+        #about .about-descr .separator {
+            max-width: 100%;
+            margin-bottom: 0;
+        }
+        /* portfolio */
+        #portfolio .portfolio-list .nav li {
+            float: none;
+            margin: 20px;
+            display: inline-block;
+        }
+        /* journal */
+        #journal .journal-block .journal-info {
+            margin-bottom: 30px;
+        }
+        /* Contact */
+        .contact-contact {
+            margin-bottom: 0px;
+        }
+        /* Footer */
+        #footer .socials-media ul li {
+            margin-right: 0;
+            margin-left: 0;
+            float: none;
+            display: inline-flex;
+        }
+    }
+    /** Width between 600px to 0	
+*  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+*/
+    
+    @media (max-width: 600px) {
+        /* Navbar */
+        nav {
+            padding: 20px 15px;
+        }
+        .nav-menu {
+            margin-top: 40px;
+            display: contents;
+            float: inline-start;
+            width: 100%;
+        }
+        .nav-menu li {
+            float: inline-start;
+            width: 100%;
+            text-align: center;
+            border-top: 1px solid #f7f7f7;
+            line-height: 45px;
+            margin-left: 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .responsive {
+            float: right;
+            padding-top: 15px;
+            display: block;
+        }
+        /* About */
+        .head-info .header-content h1 {
+            font-size: 32px;
+        }
+        #about .div-img-bg {
+            padding: 0;
+        }
+        #about .div-img-bg .about-img img {
+            margin-top: 0%;
+            margin-left: calc(0% - 0px);
+        }
+        #about .about-descr .p-heading {
+            font-size: 20px;
+        }
+        #about .about-descr .separator {
+            max-width: 100%;
+            margin-bottom: 0;
+        }
+        /* portfolio */
+        #portfolio .portfolio-list .nav li {
+            float: none;
+            margin: 10px;
+            display: inline-block;
+        }
+        /* journal */
+        #journal .journal-block .journal-info {
+            margin-bottom: 30px;
+        }
+        /* Contact */
+        .contact-contact {
+            margin-bottom: 0px;
+        }
+        /* Footer */
+        #footer .socials-media ul li {
+            margin-right: 0;
+            margin-left: 0;
+            float: none;
+            display: inline-flex;
+        }
+    }
+    /** Width between 480px to 0	
+*  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+*/
+    
+    @media (max-width: 480px) {
+        /* Navbar */
+        nav {
+            padding: 20px 15px;
+        }
+        .nav-menu {
+            margin-top: 40px;
+            display: contents;
+            float: inline-start;
+            width: 100%;
+        }
+        .nav-menu li {
+            float: inline-start;
+            width: 100%;
+            text-align: center;
+            border-top: 1px solid #f7f7f7;
+            line-height: 45px;
+            margin-left: 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .responsive {
+            float: right;
+            padding-top: 15px;
+            display: block;
+        }
+        /* About */
+        .head-info .header-content h1 {
+            font-size: 32px;
+        }
+        #about .div-img-bg {
+            padding: 0;
+        }
+        #about .div-img-bg .about-img img {
+            margin-top: 0%;
+            margin-left: calc(0% - 0px);
+        }
+        #about .about-descr .p-heading {
+            font-size: 20px;
+        }
+        #about .about-descr .separator {
+            max-width: 100%;
+            margin-bottom: 0;
+        }
+        /* portfolio */
+        #portfolio .portfolio-list .nav li {
+            float: none;
+            margin: 20px;
+        }
+        /* journal */
+        #journal .journal-block .journal-info {
+            margin-bottom: 30px;
+        }
+        /* Contact */
+        .contact-contact {
+            margin-bottom: 0px;
+        }
+        /* Footer */
+        #footer .socials-media ul li {
+            margin-right: 0;
+            margin-left: 0;
+            float: none;
+            display: inline-flex;
+        }
+    }
+    /** Width between 320px to 0	
+*  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~	
+*/
+    
+    @media (max-width: 320px) {
+        /* Navbar */
+        nav {
+            padding: 20px 15px;
+        }
+        .nav-menu {
+            margin-top: 40px;
+            display: contents;
+            float: inline-start;
+            width: 100%;
+        }
+        .nav-menu li {
+            float: inline-start;
+            width: 100%;
+            text-align: center;
+            border-top: 1px solid #f7f7f7;
+            line-height: 45px;
+            margin-left: 0;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .responsive {
+            float: right;
+            padding-top: 15px;
+            display: block;
+        }
+        /* About */
+        .head-info .header-content h1 {
+            font-size: 32px;
+        }
+        #about .div-img-bg {
+            padding: 0;
+        }
+        #about .div-img-bg .about-img img {
+            margin-top: 0%;
+            margin-left: calc(0% - 0px);
+        }
+        #about .about-descr .p-heading {
+            font-size: 20px;
+        }
+        #about .about-descr .separator {
+            max-width: 100%;
+            margin-bottom: 0;
+        }
+        /* portfolio */
+        #portfolio .portfolio-list .nav li {
+            float: none;
+            margin: 20px;
+        }
+        /* journal */
+        #journal .journal-block .journal-info {
+            margin-bottom: 30px;
+        }
+        /* Contact */
+        .contact-contact {
+            margin-bottom: 0px;
+        }
+        /* Footer */
+        #footer .socials-media ul li {
+            margin-right: 0;
+            margin-left: 0;
+            float: none;
+            display: inline-flex;
+        }
+        /* Single page */
+        .entry-comments-body span {
+            display: inline-block;
+            margin-right: 0;
+        }
     }
