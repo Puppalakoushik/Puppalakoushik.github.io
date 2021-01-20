@@ -807,7 +807,7 @@
     }
     
     #footer .socials-media ul li a:hover {
-        font-size: 115%;
+        font-size: 100%;
         color: rgb(65, 225, 225);
         transition: all 0.5s ease-in-out 0s;
     }
@@ -822,7 +822,7 @@
     
     #footer p:hover {
         font-size: 125%;
-        color: rgb(65, 225, 73);
+        color: rgb(236, 120, 25);
         transition: all 0.5s ease-in-out 0s;
     }
     
@@ -846,7 +846,7 @@
         }
         .nav-menu {
             margin-top: 40px;
-            display: flex;
+            display: list-item;
             float: inline-start;
             width: 100%;
         }
@@ -896,6 +896,7 @@
         /* Contact */
         .contact-contact {
             margin-bottom: 30px;
+            width: auto;
         }
         /* Footer */
         #footer .socials-media ul li {
@@ -916,7 +917,7 @@
         }
         .nav-menu {
             margin-top: 40px;
-            display: flex;
+            display: list-item;
             float: inline-start;
             width: 100%;
         }
@@ -966,6 +967,7 @@
         /* Contact */
         .contact-contact {
             margin-bottom: 30px;
+            width: auto;
         }
         /* Footer */
         #footer .socials-media ul li {
@@ -986,7 +988,7 @@
         }
         .nav-menu {
             margin-top: 40px;
-            display: flex;
+            display: list-item;
             float: inline-start;
             width: 100%;
         }
@@ -1036,6 +1038,7 @@
         /* Contact */
         .contact-contact {
             margin-bottom: 30px;
+            width: auto;
         }
         /* Footer */
         #footer .socials-media ul li {
@@ -1056,7 +1059,7 @@
         }
         .nav-menu {
             margin-top: 40px;
-            display: flex;
+            display: list-item;
             float: inline-start;
             width: 100%;
         }
@@ -1105,6 +1108,7 @@
         /* Contact */
         .contact-contact {
             margin-bottom: 30px;
+            width: auto;
         }
         /* Footer */
         #footer .socials-media ul li {
@@ -1125,7 +1129,7 @@
         }
         .nav-menu {
             margin-top: 40px;
-            display: flex;
+            display: list-item;
             float: inline-start;
             width: 100%;
         }
@@ -1174,6 +1178,7 @@
         /* Contact */
         .contact-contact {
             margin-bottom: 30px;
+            width: auto;
         }
         /* Footer */
         #footer .socials-media ul li {
