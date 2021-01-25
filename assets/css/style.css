@@ -1,4 +1,7 @@
-    /*-------------================ page scrollbar start =================------*/
+plugins:
+  - jekyll-sitemap
+
+/*-------------================ page scrollbar start =================------*/
     
      ::-webkit-scrollbar {
         width: 7px;
