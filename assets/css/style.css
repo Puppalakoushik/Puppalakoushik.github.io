@@ -16,22 +16,13 @@ body {
 }
 
 a {
-    color: #ffb727;
+    color: lightgreen;
     text-decoration: none;
 }
 
 a:hover {
-    color: #ffc85a;
+    color: lightgreen;
     text-decoration: none;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Raleway", sans-serif;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -72,13 +63,13 @@ h6 {
     width: 40px;
     height: 40px;
     border-radius: 4px;
-    background: #ffb727;
+    background: skyblue;
     color: #fff;
     transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-    background: #ffc550;
+    background: skyblue;
     color: #fff;
 }
 
@@ -91,7 +82,7 @@ h6 {
     z-index: 997;
     transition: all 0.5s;
     height: 80px;
-    background: rgba(25, 28, 31, 0.8);
+    background: rgba(84, 84, 85, 0.39);
 }
 
 #header.header-transparent {
@@ -100,7 +91,7 @@ h6 {
 
 #header.header-scrolled {
     height: 60px;
-    background: rgba(25, 28, 31, 0.8);
+    background: rgba(84, 84, 85, 0.39);
 }
 
 
@@ -143,7 +134,7 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active>a,
 .nav-menu li:hover>a {
-    color: #ffc85a;
+    color: dodgerblue;
     text-decoration: none;
 }
 
@@ -183,7 +174,7 @@ h6 {
 .nav-menu .drop-down ul a:hover,
 .nav-menu .drop-down ul .active>a,
 .nav-menu .drop-down ul li:hover>a {
-    color: #ffb727;
+    color: dodgerblue;
 }
 
 .nav-menu .drop-down>a:after {
@@ -282,7 +273,7 @@ h6 {
 .mobile-nav a:hover,
 .mobile-nav .active>a,
 .mobile-nav li:hover>a {
-    color: #ffb727;
+    color: lightcoral;
     text-decoration: none;
 }
 
@@ -352,7 +343,7 @@ h6 {
 
 #hero:before {
     content: "";
-    background: rgba(0, 0, 0, 0.65);
+    background: rgba(36, 35, 35, 0.411);
     position: absolute;
     bottom: 0;
     top: 0;
@@ -374,9 +365,9 @@ h6 {
 }
 
 #hero h1 {
-    margin: 0 0 10px 0;
     font-size: 64px;
-    font-family: "Satisfy", serif;
+    font-style: italic;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #fff;
 }
 
@@ -400,7 +391,7 @@ h6 {
 }
 
 #hero .btn-scroll:hover {
-    color: #ffb727;
+    color: orangered;
 }
 
 @media (min-width: 1024px) {
@@ -587,7 +578,7 @@ section {
 .about .content ul i {
     font-size: 20px;
     padding-right: 2px;
-    color: #ffb727;
+    color: orchid;
 }
 
 .about .content .count-box {
@@ -597,7 +588,7 @@ section {
 .about .content .count-box i {
     display: block;
     font-size: 36px;
-    color: #ffb727;
+    color: orangered;
     float: left;
 }
 
@@ -671,7 +662,7 @@ section {
     width: 1px;
     height: 10px;
     transition: .9s;
-    background-color: #ffb727;
+    background-color: aqua;
 }
 
 
