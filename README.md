@@ -15,6 +15,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
+<iframe src="https://discord.com/widget?id=775411681714503680&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
 <img alt="Visitors" src="https://visitor-badge.glitch.me/badge?page_id=puppala-koushik.puppala-koushik.github.io" /> <a href="https://koushikpuppala.live"><img alt="Website" src="https://img.shields.io/website-up-down-green-red/http/shields.io.svg" /> </a>
 
 <a href="https://discord.gg/MsJ99j5Bcv"><img alt="Discord" src="https://img.shields.io/badge/Avenger Assemble-7289DA?style=for-the-badge&logo=discord&logoColor=white" /></a>
